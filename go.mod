@@ -3,6 +3,7 @@ module bitbucket.org/dreamplug-backend/ProjectGeneratorCli
 go 1.19
 
 require (
+	github.com/artdarek/go-unzip v1.0.0
 	github.com/briandowns/spinner v1.23.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/manifoldco/promptui v0.9.0

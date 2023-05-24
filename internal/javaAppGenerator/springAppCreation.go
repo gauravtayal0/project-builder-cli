@@ -60,5 +60,5 @@ func (sag SpringAppGenerator) saveProject(res *http.Response, filePath string) {
 		}
 	}
 
-	utils.Unzip(filePath+ZipFormat, filePath)
+	utils.UnZip(filePath+ZipFormat, filePath)
 }
